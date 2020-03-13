@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+#bg {
+	background-image: url("../img/bg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-width: 100vw;
+	position: fixed;
+	z-index:-1;
+	min-height: 100vh;
+}
+#history, #rules, #implementation {
+	min-height: 100vh;
+	padding-top: 100px;
+	color: white;
+}
+#implementation {
+	text-align: center;
+}
+h6 {
+	font-size: 8px;
+}
+#rules {
+	padding-top: 30vh;
+}
+#canvas {
+	width: 800px;
+	height: 800px;
+	border: 1px solid black;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+#canvas:focus {
+	outline: 0;
+}
+
+.navbar {
+	background-color: none;
+}
+.col-6 {
+	height: 100%;
+}
+.img-fluid {
+	max-width: 75%;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
